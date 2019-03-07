@@ -73,6 +73,8 @@ yarn release
 * Added ability to add plugins to client webpack bundle
 * Added `minimumTextLength` to `SearchModelBase`
 * Added `AmpModal` component based on `<amp-lightbox>`.
+* Added `utils/isLighthouse` helper function to conditionally load code when in Lighthouse
+* Added `AnalyticsProvider` for loading analytics on mount
 
 ### 6.5.0
 
@@ -128,6 +130,11 @@ yarn release
 * Upgraded to babel 7
 * Upgraded to webpack 4
 * Upgraded to material-ui@3.8.1
+
+### 5.12.0
+
+* Added `utils/isLighthouse` helper function to conditionally load code when in Lighthouse
+* Added `AnalyticsProvider` for loading analytics on mount
 
 ### 5.11.0
 
