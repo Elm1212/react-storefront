@@ -75,6 +75,7 @@ yarn release
 * Added `AmpModal` component based on `<amp-lightbox>`.
 * Added `utils/isLighthouse` helper function to conditionally load code when in Lighthouse
 * Added `AnalyticsProvider` for loading analytics on mount
+* Fixed `Menu` body scrolling issue in iOS
 
 ### 6.5.0
 
